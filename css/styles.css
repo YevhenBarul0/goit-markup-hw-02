@@ -3,15 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* font-family: "Raleway", sans-serif; */
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
 
 button {
   cursor: pointer;
@@ -45,7 +36,8 @@ button {
   color: #2e2f42;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -53,7 +45,8 @@ button {
   font-style: normal;
 }
 
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
